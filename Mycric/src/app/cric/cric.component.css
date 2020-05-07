@@ -1,0 +1,91 @@
+/* Type your code here */
+body
+{
+	background-image: url("../../assets/background-image1.png");
+	background-size: 70% auto;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.container{
+	
+	margin-left: 3em;
+	margin-right: 3em;
+	animation-name: example;
+	animation-duration: 4s;
+	
+}
+@keyframes example {
+	0%   { left:0px; top:0px;}
+   
+	75%  { left:0px; top:200px;}
+	
+  }
+#logo
+{
+	float:right;
+}
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
+h1
+{
+	font-size: 70px;
+}
+h2
+{
+	color: grey;
+	font-size: 30px;
+}
+#tabhd
+{
+	padding: 10px;
+	font-size: 30px;
+	width: 80%;
+	height: 1em;
+	display: grid;
+	grid-template-columns: 20% 40% 20%;
+	background-color: orangered;
+}
+#batsman
+{
+	padding: 10px;
+	font-size: 30px;
+	width: 60%;
+	height: 1em;
+	display: grid;
+	grid-template-columns: 2fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+#extra
+{
+	padding: 10px;
+	font-size: 30px;
+	width: 60%;
+	height: 1em;
+	display: grid;
+	grid-template-columns: 2fr 3fr 3fr;	
+}
+#bat
+{
+	padding: 10px;
+	font-size: 30px;
+	width: 60%;
+	height: 1em;
+	display: grid;
+	grid-template-columns: 2fr 6fr;	
+}
+a{
+    text-decoration: none;
+}
+
